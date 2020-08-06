@@ -1,0 +1,49 @@
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.flexRow {
+  display: flex;
+  text-align: center;
+padding: 0 20px;
+  justify-content: space-around;
+  background-color: white;
+  border-bottom: 10px solid #31315e;
+  align-items: center;
+}
+
+/*
+Single book page
+*/
+.sectiontitle {
+  text-align: center;
+  color:#31315e;
+}
+
+.singlebookcontainer {
+  display: flex;
+  width: 90%;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 20px;
+    justify-content: center;
+
+}
+
+.singlebookcontainer img{
+  width: 40%;
+width: 320px;
+margin: auto;
+}
+
+.singledata {
+  text-align: center;
+  color: #31315e;
+  width: 60%;
+  min-width: 230px;
+  font-size: 1.2rem;
+}
+

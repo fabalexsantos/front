@@ -1,0 +1,124 @@
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #31315e;
+  background-color: #edf4fc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.default-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.title {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+}
+/*
+====== 
+Navbar
+======
+*/
+.navbar {
+  background:#31315e;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid ;
+  box-shadow:#31315e;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links a {
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  transition: var(--mainTransition);
+}
+.nav-links a:hover {
+  color: var(--primaryColor);
+}
+.logo {
+  width: 12rem;
+}
+/* 
+====== 
+About
+======
+*/
+.about-section {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+/* 
+====== 
+Error
+======
+*/
+.error-page {
+  display: flex;
+  justify-content: center;
+}
+.error-container {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*
+BTN
+*/
+.btn {
+background-color: #31315e;
+display: flex;
+justify-self: center;
+margin: 10px;
+width: 70%;
+max-width: 300px;
+margin: 30px auto;
+justify-content: center;
+}
+
+.vermelho {
+background-color: tomato;
+width: 70%;
+max-width: 300px;
+min-width: 250px;
+}
